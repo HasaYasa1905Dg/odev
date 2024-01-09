@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			font-family: Tahoma;
+			font-size: 14px;
+			background-color: purple;	
+		}
+		#kapsayici
+		{
+			width: 980px;
+			height: 1000px;
+			border: solid 2px red;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: white;
+			overflow: hidden;
+		}
+		#ustresim
+		{
+			width:960px;
+			height: 200px;
+			margin: 10px;
+			float:left;
+		}
+		#logo
+		{
+			width:292px;
+			height: 70px;
+			float:left;
+			margin:10px;
+		}
+		#menu
+		{
+			width:640px;
+			float:right;
+			height: 50px;
+			margin-right: 10px;
+			margin-top: 10px;
+		}
+		#menu ul
+		{
+			list-style-type: none;
+		}
+		#menu a
+		{
+			text-decoration: none;
+			display: block;
+			width: 119px;
+			height: 50px;
+			line-height: 50px;
+			border-left: 1px solid;
+			float: left;
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+		#menu a:hover
+		{
+			color: black;
+			background-color: white;
+		}
+		#yazi
+		{
+			float:left;
+			width: 800px;
+			margin-left:20px ;
+		}
+		hr
+		{
+			border: 1px solid black;
+			width: 960px;
+			float:left;
+			margin-bottom: 10px;
+			margin-left: 10px;
+		}
+		#encoksatanlar
+		{
+			width: 960px;
+			height: 200px;
+			float: left;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			
+		}
+		#yazarlar
+		{
+			width: 960px;
+			height: 300px;
+			float: left;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			border: 1px solid black;			
+		}
+		#yazarlar p
+		{
+			text-align: justify;
+			font-size: 10px;
+			margin-left: 10px;
+			margin-right: 10px;
+
+		}
+		.kitaplar
+		{
+			height: 180px;
+			margin : 10px 25px 10px 20px;
+			width: 140px;
+			border: 2px solid black;
+			float: left;	
+					
+		}
+		.kitaplar img
+		{
+			width: 120px;
+			height: 125px;
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+		h3
+		{
+			font-size: 11px;
+			display: block;
+			width: 140px;
+			background-color: black;
+			color: white;
+			height: 40px;
+			margin-top: 0px;
+			line-height: 20px;
+			text-align: center;
+		}
+		.yazarisimleri
+		{
+			height: 250px;
+			margin : 10px 25px 10px 20px;
+			width: 140px;
+			border: 2px solid black;
+			float: left;
+			border-radius: 5px;		
+		}
+	</style>
+</head>
+<body>
+	<div id="kapsayici">
+		<div id="ustresim"><img src="resimler/logo.png"></div>
+		<div id="logo"><img src="resimler/ustlogo.png"></div>		
+		<div id="menu">	
+			<ul>		
+				<li><a href="index.html">ANASAYFA</a></li>
+				<li><a href="kitap.html">KİTAP</a></li>
+				<li><a href="kirtasiye.html">KIRTASİYE</a></li>
+				<li><a href="sepetim.html">SEPETİM</a></li>
+				<li><a href="iletisim.html">İLETİŞİM</a></li>
+			</ul>
+		</div>
+		<div id="yazi"><h4>En Çok Satanlar</h4></div>
+		<hr>
+		<div id="encoksatanlar">
+			<div class="kitaplar">
+				<h3>Aşkımız Eski Bir Roman Ahmet Ümit </h3>
+				<img src="resimler/k1.jpg">
+			</div>
+			<div class="kitaplar">
+				<h3>Kara Kutu <br>Soner Yalçın </h3>
+				<img src="resimler/k2.jpg">
+			</div>
+			<div class="kitaplar">
+				<h3>Kürk Mantolu Madonna Sabahattin Ali </h3>
+				<img src="resimler/k3.jpg">
+			</div>
+			<div class="kitaplar">
+				<h3>Şeker Portakalı <br>Jose Mauro De </h3>
+				<img src="resimler/k4.jpg">
+			</div>
+			<div class="kitaplar">
+				<h3>Bir Ömür Nasıl Yaşanır İlber Ortaylı</h3>
+				<img src="resimler/k5.jpg">
+			</div>
+		</div>
+		<div id="yazi"><h4>Yazarlar</h4></div>
+		<hr>
+		<div id = "yazarlar">
+			<div class="yazarisimleri">
+				<h3>DOĞAN CÜCELOĞLU</h3>
+				<p>Arnavutköy Amerikan Kız koleji Edebiyat Bölümü`nden mezun oldu. Cumhuriyet, Güneş ve Dünya gazetelerinde muhabirlik, çeşitli dergilerde yazarlık ve yazı işleri müdürlüğü yaptı. Uzun yıllar halkla ilişkiler uzmanı, televizyon, reklam ve sinema filmlerinde sahne yapımcısı, sanat yönetmeni ve senarist olarak çalıştı.
+				</p>
+			</div>		
+			<div class="yazarisimleri">
+				<h3>SONER YALÇIN</h3>
+				<p>Arnavutköy Amerikan Kız koleji Edebiyat Bölümü`nden mezun oldu. Cumhuriyet, Güneş ve Dünya gazetelerinde muhabirlik, çeşitli dergilerde yazarlık ve yazı işleri müdürlüğü yaptı. Uzun yıllar halkla ilişkiler uzmanı, televizyon, reklam ve sinema filmlerinde sahne yapımcısı, sanat yönetmeni ve senarist olarak çalıştı.
+				</p>
+			</div>
+			<div class="yazarisimleri">
+				<h3>SABAHATTİN ALİ</h3>
+				<p>25 Şubat 1907’de Gümülcine’de doğdu, 2 Nisan 1948’de Kırklareli’nde öldü.1948’de bir yazısı yüzünden tutuklandı, üç ay kadar hapis yattı. Sürekli izlendiği için yurtdışına kaçmak istedi, ancak Kırklareli dolaylarında bir kaçakçı tarafından öldürüldüğü iddia edildi. Şiirler, hikâyeler, romanlar yazdı, çeviriler yaptı.ıştı.
+				</p>
+			</div>
+			<div class="yazarisimleri">
+				<h3>PEYAMİ SAFA</h3>
+				<p>1949`da yayınlanan son eserlerinden "Matmazel Noraliya`nın Koltuğu"nda da tıp öğrenimi yaparken bunalıma girerek felsefeye yönelen ve sonuçta mistik dünya görüşünde karar kılan bir gencin öyküsünü anlattı. Edebiyat ve siyaset tartışmalarının hep içinde bulundu. Nâzım Hikmet, Nurullah Ataç, Zekeriya Sertel, Muhsin Ertuğrul, Aziz Nesin`le polemiklere girdi.
+				</p>
+			</div>
+			<div class="yazarisimleri">
+				<h3>AYŞE KULİN</h3>
+				<p>Arnavutköy Amerikan Kız koleji Edebiyat Bölümü`nden mezun oldu. Cumhuriyet, Güneş ve Dünya gazetelerinde muhabirlik, çeşitli dergilerde yazarlık ve yazı işleri müdürlüğü yaptı. Uzun yıllar halkla ilişkiler uzmanı, televizyon, reklam ve sinema filmlerinde sahne yapımcısı, sanat yönetmeni ve senarist olarak çalıştı.
+				</p>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
